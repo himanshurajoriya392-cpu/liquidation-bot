@@ -6,6 +6,11 @@ on:
 jobs:
   run:
     runs-on: ubuntu-latest
+    env:
+      RPC_URL: ${{ secrets.RPC_URL }}
+      GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
+      PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+      WALLET_ADDRESS: ${{ secrets.WALLET_ADDRESS }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -15,8 +20,3 @@ jobs:
       - run: node findWhales.js
       - run: node executor.js
         timeout-minutes: 25
-        env:
-          RPC_URL: ${{ secrets.RPC_URL }}
-          GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
-          PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
-          WALLET_ADDRESS: ${{ secrets.WALLET_ADDRESS }}
