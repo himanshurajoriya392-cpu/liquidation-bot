@@ -5,125 +5,117 @@ const fs = require("fs");
 const provider = new ethers.providers.JsonRpcProvider(process.env.RPC_URL);
 const wallet = new ethers.Wallet(process.env.PRIVATE_KEY, provider);
 
-// Contract Addresses
 const FLASH_LIQUIDATOR = "0xD70eF29B779bA5D6Bab6e5d5B9867b75A3c5b84F";
 const POOL_ADDR = "0x794a61358D6845594F94dc1DB02A252b5b4814aD";
 const DATA_PROVIDER = "0x69FA688f1Dc47d4B5d8029D5a35FB7a548310654";
+const AAVE_PROVIDER = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
 
-// ABIs
 const LIQUIDATOR_ABI = [
   "function liquidate(address collateral, address debt, address user, uint256 amount) external"
 ];
-
 const POOL_ABI = [
   "function getUserAccountData(address user) view returns (uint256 totalCollateralBase, uint256 totalDebtBase, uint256 availableBorrowsBase, uint256 currentLiquidationThreshold, uint256 ltv, uint256 healthFactor)"
 ];
-
-const DATA_PROVIDER_ABI = [
+const DATA_ABI = [
   "function getUserReservesData(address provider, address user) view returns (tuple(address underlyingAsset, uint256 scaledATokenBalance, bool usageAsCollateralEnabledOnUser, uint256 stableBorrowRate, uint256 scaledVariableDebt, uint256 principalStableDebt, uint256 creditDelegationAllowance)[], uint8)"
 ];
 
-const AAVE_PROVIDER = "0xa97684ead0e402dC232d5A977953DF7ECBaB3CDb";
-
 const liquidator = new ethers.Contract(FLASH_LIQUIDATOR, LIQUIDATOR_ABI, wallet);
 const pool = new ethers.Contract(POOL_ADDR, POOL_ABI, provider);
-const dataProvider = new ethers.Contract(DATA_PROVIDER, DATA_PROVIDER_ABI, provider);
+const dataProvider = new ethers.Contract(DATA_PROVIDER, DATA_ABI, provider);
+
+const executed = new Set();
 
 function loadWhales() {
   const raw = JSON.parse(fs.readFileSync("whales.json"));
-  return raw.map(w => w.address);
+  return raw;
 }
 
-async function getUserAssets(userAddr) {
+async function getAssets(user) {
   try {
-    const [reserves] = await dataProvider.getUserReservesData(AAVE_PROVIDER, userAddr);
-    
-    let bestDebt = null;
-    let bestCollateral = null;
+    const [reserves] = await dataProvider.getUserReservesData(AAVE_PROVIDER, user);
+    let bestDebt = null, bestColl = null;
     let maxDebt = ethers.BigNumber.from(0);
     let maxColl = ethers.BigNumber.from(0);
 
     for (const r of reserves) {
-      // Find biggest debt
       if (r.scaledVariableDebt.gt(maxDebt)) {
         maxDebt = r.scaledVariableDebt;
         bestDebt = r.underlyingAsset;
       }
-      // Find biggest collateral
       if (r.usageAsCollateralEnabledOnUser && r.scaledATokenBalance.gt(maxColl)) {
         maxColl = r.scaledATokenBalance;
-        bestCollateral = r.underlyingAsset;
+        bestColl = r.underlyingAsset;
       }
     }
-
-    return { bestDebt, bestCollateral };
+    return { bestDebt, bestColl };
   } catch(e) {
-    return { bestDebt: null, bestCollateral: null };
+    return { bestDebt: null, bestColl: null };
   }
 }
 
-async function tryLiquidate(addr, hf, debtUsd) {
-  console.log(`\n🚨 LIQUIDATING: ${addr}`);
-  console.log(`   HF: ${hf.toFixed(4)} | Debt: $${debtUsd.toFixed(0)}`);
+async function execute(addr, hf, debt) {
+  if (executed.has(addr)) return;
+  executed.add(addr);
 
-  const { bestDebt, bestCollateral } = await getUserAssets(addr);
+  console.log(`\n🚨🚨 LIQUIDATING: ${addr}`);
+  console.log(`   HF: ${hf.toFixed(6)} | Debt: $${debt.toFixed(0)}`);
 
-  if (!bestDebt || !bestCollateral) {
-    console.log("   ❌ Could not get assets — skipping");
+  const { bestDebt, bestColl } = await getAssets(addr);
+  if (!bestDebt || !bestColl) {
+    console.log("   ❌ Assets not found");
+    executed.delete(addr);
     return;
   }
 
-  console.log(`   Debt Asset: ${bestDebt}`);
-  console.log(`   Collateral: ${bestCollateral}`);
-
   try {
-    // Max liquidation = 50% of debt
-    const amount = ethers.constants.MaxUint256;
-
     const tx = await liquidator.liquidate(
-      bestCollateral,
+      bestColl,
       bestDebt,
       addr,
-      amount,
-      { gasLimit: 800000 }
+      ethers.constants.MaxUint256,
+      { gasLimit: 900000, gasPrice: ethers.utils.parseUnits("100", "gwei") }
     );
-
-    console.log(`   ⏳ TX Sent: ${tx.hash}`);
+    console.log(`   ⏳ TX: ${tx.hash}`);
     const receipt = await tx.wait();
     console.log(`   ✅ SUCCESS! Block: ${receipt.blockNumber}`);
-    fs.appendFileSync("PROFITS.txt", `${new Date().toISOString()} | ${addr} | TX: ${tx.hash}\n`);
+
+    const log = `${new Date().toISOString()} | ${addr} | HF:${hf} | Debt:$${debt} | TX:${tx.hash}\n`;
+    fs.appendFileSync("PROFITS.txt", log);
+    console.log(`   💰 PROFIT LOGGED!`);
   } catch(e) {
-    console.log(`   ❌ Failed: ${e.message.slice(0, 100)}`);
+    console.log(`   ❌ Error: ${e.message.slice(0, 150)}`);
+    executed.delete(addr);
   }
 }
 
 async function main() {
-  console.log("=== EXECUTOR ACTIVE ===");
-  console.log(`Liquidator Contract: ${FLASH_LIQUIDATOR}`);
+  console.log("=== EXECUTOR v2 ACTIVE ===");
+  console.log(`Contract: ${FLASH_LIQUIDATOR}`);
   console.log(`Wallet: ${wallet.address}`);
 
   const whales = loadWhales();
-  console.log(`Monitoring ${whales.length} whales...\n`);
+  console.log(`Monitoring ${whales.length} whales | Scan every 15s\n`);
 
   while(true) {
-    for(const addr of whales) {
+    for (const whale of whales) {
       try {
-        const d = await pool.getUserAccountData(addr);
+        const d = await pool.getUserAccountData(whale.address);
         const hf = parseFloat(ethers.utils.formatUnits(d.healthFactor, 18));
         const debt = parseFloat(ethers.utils.formatUnits(d.totalDebtBase, 8));
 
-        if(hf < 1.0 && debt > 1000) {
-          await tryLiquidate(addr, hf, debt);
-        } else if(hf < 1.05) {
-          console.log(`⚠️  NEAR: ${addr} | HF: ${hf.toFixed(4)} | $${debt.toFixed(0)}`);
+        if (hf < 1.0 && debt > 1000) {
+          await execute(whale.address, hf, debt);
+        } else if (hf < 1.05) {
+          console.log(`⚠️  NEAR: ${whale.address} | HF: ${hf.toFixed(4)} | $${debt.toFixed(0)}`);
         }
       } catch(e) {}
 
-      await new Promise(r => setTimeout(r, 300));
+      await new Promise(r => setTimeout(r, 200));
     }
 
-    console.log(`[${new Date().toLocaleTimeString()}] Scan done. Next in 30s...`);
-    await new Promise(r => setTimeout(r, 30000));
+    console.log(`[${new Date().toLocaleTimeString()}] Scan done. Next in 15s...`);
+    await new Promise(r => setTimeout(r, 15000));
   }
 }
 
