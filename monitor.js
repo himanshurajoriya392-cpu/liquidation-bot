@@ -8,40 +8,33 @@ const POOL_ABI = ["function getUserAccountData(address user) view returns (uint2
 const pool = new ethers.Contract(POOL_ADDR, POOL_ABI, provider);
 
 async function main() {
-    console.log("=== MONITOR ACTIVE — Watching for HF < 1.0 ===");
-    
-    const whalesRaw = JSON.parse(fs.readFileSync("whales.json"));
-    const addrs = whalesRaw.map(w => w.address);
-    console.log(`Monitoring ${addrs.length} whales...\n`);
+  console.log("=== MONITOR v2 ACTIVE ===");
+  
+  const whales = JSON.parse(fs.readFileSync("whales.json"));
+  console.log(`Monitoring ${whales.length} whales | Scan every 15s\n`);
 
-    while(true) {
-        for(const addr of addrs) {
-            try {
-                const d = await pool.getUserAccountData(addr);
-                const hf = parseFloat(ethers.utils.formatUnits(d.healthFactor, 18));
-                const debt = parseFloat(ethers.utils.formatUnits(d.totalDebtBase, 8));
+  while(true) {
+    for (const whale of whales) {
+      try {
+        const d = await pool.getUserAccountData(whale.address);
+        const hf = parseFloat(ethers.utils.formatUnits(d.healthFactor, 18));
+        const debt = parseFloat(ethers.utils.formatUnits(d.totalDebtBase, 8));
 
-                if(hf < 1.0 && debt > 1000) {
-                    const msg = `\n🚨🚨 LIQUIDATABLE! 🚨🚨
-Address: ${addr}
-Health Factor: ${hf.toFixed(4)}
-Debt: $${debt.toFixed(0)}
-Collateral: $${parseFloat(ethers.utils.formatUnits(d.totalCollateralBase, 8)).toFixed(0)}
-Time: ${new Date().toISOString()}\n`;
-                    
-                    console.log(msg);
-                    fs.appendFileSync("ALERTS.txt", msg);
-                } else if(hf < 1.1) {
-                    console.log(`⚠️  NEAR: ${addr} | HF: ${hf.toFixed(4)} | Debt: $${debt.toFixed(0)}`);
-                }
-            } catch(e) {}
-            
-            await new Promise(r => setTimeout(r, 200));
+        if (hf < 1.0 && debt > 1000) {
+          const alert = `🚨 LIQUIDATABLE | ${whale.address} | HF: ${hf.toFixed(4)} | Debt: $${debt.toFixed(0)} | ${new Date().toISOString()}`;
+          console.log(alert);
+          fs.appendFileSync("ALERTS.txt", alert + "\n");
+        } else if (hf < 1.05) {
+          console.log(`⚠️  NEAR: ${whale.address} | HF: ${hf.toFixed(4)} | $${debt.toFixed(0)}`);
         }
-        
-        console.log(`[${new Date().toLocaleTimeString()}] Scan complete. Next scan in 30s...`);
-        await new Promise(r => setTimeout(r, 30000));
+      } catch(e) {}
+
+      await new Promise(r => setTimeout(r, 200));
     }
+
+    console.log(`[${new Date().toLocaleTimeString()}] Scan done. Next in 15s...`);
+    await new Promise(r => setTimeout(r, 15000));
+  }
 }
 
 main().catch(console.error);
