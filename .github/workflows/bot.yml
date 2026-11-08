@@ -1,22 +1,31 @@
-name: Liquidation Bot
+name: Aave Liquidation Bot
+
 on:
   schedule:
-    - cron: '*/15 * * * *'
-  workflow_dispatch:
+    - cron: '*/15 * * * *' # Har 15 minute mein chalega
+  workflow_dispatch: # Manual run button
+
 jobs:
-  run:
+  liquidate:
     runs-on: ubuntu-latest
     env:
       RPC_URL: ${{ secrets.RPC_URL }}
       GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
       PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
       WALLET_ADDRESS: ${{ secrets.WALLET_ADDRESS }}
+
     steps:
-      - uses: actions/checkout@v3
-      - uses: actions/setup-node@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: '18'
-      - run: npm install ethers@5.7.2 dotenv
-      - run: node findWhales.js
-      - run: node executor.js
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install ethers@5.7.2 axios
+
+      - name: Run Executor (Liquidation Check)
+        run: node executor.js
         timeout-minutes: 10
