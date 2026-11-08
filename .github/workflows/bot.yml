@@ -2,8 +2,9 @@ name: Aave Liquidation Bot
 
 on:
   schedule:
-    - cron: '*/15 * * * *' # Har 15 minute mein chalega
-  workflow_dispatch: # Manual run button
+    - cron: '*/15 * * * *'   # Har 15 min — executor
+    - cron: '0 0 * * 0'       # Har Sunday midnight — whale refresh
+  workflow_dispatch:
 
 jobs:
   liquidate:
@@ -26,6 +27,39 @@ jobs:
       - name: Install dependencies
         run: npm install ethers@5.7.2 axios
 
-      - name: Run Executor (Liquidation Check)
+      - name: Run Executor
         run: node executor.js
         timeout-minutes: 10
+
+  refresh-whales:
+    runs-on: ubuntu-latest
+    if: github.event.schedule == '0 0 * * 0'
+    env:
+      RPC_URL: ${{ secrets.RPC_URL }}
+      GRAPH_API_KEY: ${{ secrets.GRAPH_API_KEY }}
+      PRIVATE_KEY: ${{ secrets.PRIVATE_KEY }}
+      WALLET_ADDRESS: ${{ secrets.WALLET_ADDRESS }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Install dependencies
+        run: npm install ethers@5.7.2 axios
+
+      - name: Refresh Whale List
+        run: node findWhales.js
+        timeout-minutes: 25
+
+      - name: Commit updated whales.json
+        run: |
+          git config user.email "bot@liquidation.com"
+          git config user.name "Liquidation Bot"
+          git add whales.json
+          git commit -m "Auto: Weekly whale list refresh" || echo "No changes"
+          git push
