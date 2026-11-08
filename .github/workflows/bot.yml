@@ -1,7 +1,7 @@
 name: Liquidation Bot
 on:
   schedule:
-    - cron: '0 */2 * * *'
+    - cron: '*/15 * * * *'
   workflow_dispatch:
 jobs:
   run:
@@ -19,4 +19,4 @@ jobs:
       - run: npm install ethers@5.7.2 dotenv
       - run: node findWhales.js
       - run: node executor.js
-        timeout-minutes: 25
+        timeout-minutes: 10
