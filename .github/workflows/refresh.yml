@@ -1,0 +1,33 @@
+name: Refresh Whales
+
+on:
+  schedule:
+    - cron: '0 */4 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    env:
+      RPC_URL:        ${{ secrets.RPC_URL }}
+      GRAPH_API_KEY:  ${{ secrets.GRAPH_API_KEY }}
+      PRIVATE_KEY:    ${{ secrets.PRIVATE_KEY }}
+      WALLET_ADDRESS: ${{ secrets.WALLET_ADDRESS }}
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+      - run: npm install ethers@5.7.2 axios
+      - run: node findWhales.js
+        timeout-minutes: 25
+      - name: Commit whales.json
+        run: |
+          git config user.email "bot@liquidation.com"
+          git config user.name "Liquidation Bot"
+          git add whales.json
+          git diff --staged --quiet || git commit -m "🐋 Whales refreshed $(date -u '+%Y-%m-%d %H:%M UTC')"
+          git push
