@@ -1,0 +1,92 @@
+[
+  {
+    "address": "0x0111574ecf3ba71c3ac44246d62849080d60718d",
+    "debtUsd": 20509.4710145,
+    "collateralUsd": 23352.77025435,
+    "healthFactor": 1.073162044287833
+  },
+  {
+    "address": "0x04903c4c148dd276555df99fb16fbf1708a43a19",
+    "debtUsd": 941820.25853988,
+    "collateralUsd": 1378505.57832844,
+    "healthFactor": 1.1416555774274142
+  },
+  {
+    "address": "0x0096d4906508ab471738d2565be1852d6460a394",
+    "debtUsd": 34579.18585289,
+    "collateralUsd": 52521.17754914,
+    "healthFactor": 1.1883514517030875
+  },
+  {
+    "address": "0x02be78828b55640b714a64c1ff43cac8fc3b54da",
+    "debtUsd": 43429.8231833,
+    "collateralUsd": 67003.5075172,
+    "healthFactor": 1.203213117452713
+  },
+  {
+    "address": "0x02ba2c2f13c82e62b2fa59deb33e59c2b1990e41",
+    "debtUsd": 10116.56600251,
+    "collateralUsd": 16909.81820636,
+    "healthFactor": 1.3873432013697207
+  },
+  {
+    "address": "0x0289604c4e5df1efd504b71743b43b8a70edd07d",
+    "debtUsd": 23286.14275633,
+    "collateralUsd": 42412.7047498,
+    "healthFactor": 1.420669367658633
+  },
+  {
+    "address": "0x03ca4989e942da8d9f24aceba55579a7cb1033b1",
+    "debtUsd": 10286.2325032,
+    "collateralUsd": 20747.55421314,
+    "healthFactor": 1.5732769292561406
+  },
+  {
+    "address": "0x03b99c3d4ea494551b8c02709b006a0b71fefcad",
+    "debtUsd": 2306676.68060625,
+    "collateralUsd": 4704032.77176097,
+    "healthFactor": 1.5906631357669152
+  },
+  {
+    "address": "0x02aa0b826c7ba6386ddbe04c0a8715a1c0a16b24",
+    "debtUsd": 16094.98918667,
+    "collateralUsd": 33870.18887757,
+    "healthFactor": 1.6414268452186858
+  },
+  {
+    "address": "0x00d744f080dd13d8707cd57656ef4d2728962f4d",
+    "debtUsd": 50562.37341246,
+    "collateralUsd": 109540.43395813,
+    "healthFactor": 1.6898245220879244
+  },
+  {
+    "address": "0x03c9a17df9d2ddf88cfaebc3b7ecabfdd4a9f9b0",
+    "debtUsd": 148687.94344332,
+    "collateralUsd": 336086.72903169,
+    "healthFactor": 1.782076140414184
+  },
+  {
+    "address": "0x0199a54ad38f4d55b3819517d3fea232ae33f673",
+    "debtUsd": 58523.46026875,
+    "collateralUsd": 129219.45220619,
+    "healthFactor": 1.7863667592777603
+  },
+  {
+    "address": "0x013243e0ea7e05900b4f54ad417d1d072e31e4d1",
+    "debtUsd": 12263.38778633,
+    "collateralUsd": 29798.84098751,
+    "healthFactor": 1.9126768158967127
+  },
+  {
+    "address": "0x003d8c013c8ed94fbdd0adc0da41bf43165d10b0",
+    "debtUsd": 19208.29257451,
+    "collateralUsd": 63633.77514861,
+    "healthFactor": 2.584006070470944
+  },
+  {
+    "address": "0x008b1ffe244bf31896c833bff4ad9009e7a0f4eb",
+    "debtUsd": 36481.21397811,
+    "collateralUsd": 140334.64815166,
+    "healthFactor": 2.6927482803120713
+  }
+]
