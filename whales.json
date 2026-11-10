@@ -1,962 +1,1028 @@
 [
   {
     "address": "0x0fe2f16c0d833f7d9feb90318a91d4afbeb57624",
-    "healthFactor": 1.001082,
-    "debtUsd": 36596.32,
-    "collateralUsd": 38879.22
+    "healthFactor": 1.000997,
+    "debtUsd": 36594.64,
+    "collateralUsd": 38873.85
   },
   {
     "address": "0x01b037084eba7e4519dbfc9ba026ae696746e033",
-    "healthFactor": 1.007332,
-    "debtUsd": 4652.28,
-    "collateralUsd": 6065.79
-  },
-  {
-    "address": "0x112ff5af47f640dc9a47112eb8b93d283e635cd3",
-    "healthFactor": 1.009246,
-    "debtUsd": 294.92,
-    "collateralUsd": 382.94
-  },
-  {
-    "address": "0x0dfbec5f920ed34b8428b2453ceb0f4fbdf89074",
-    "healthFactor": 1.009599,
-    "debtUsd": 4996.27,
-    "collateralUsd": 6077.39
-  },
-  {
-    "address": "0x20811867707eb9f2c8a1b2bb8bae6ce3f9befbdd",
-    "healthFactor": 1.010092,
-    "debtUsd": 44205.18,
-    "collateralUsd": 48012.17
-  },
-  {
-    "address": "0x03cce2d0b0589efd1fe1fb18371e0fe4f5628c13",
-    "healthFactor": 1.017322,
-    "debtUsd": 1382.41,
-    "collateralUsd": 1492.15
+    "healthFactor": 1.005746,
+    "debtUsd": 4647.87,
+    "collateralUsd": 6050.27
   },
   {
     "address": "0x1352c3bfcb82ddb0ab63be458831d3d8427366a8",
-    "healthFactor": 1.017451,
-    "debtUsd": 1477.59,
-    "collateralUsd": 1901.88
+    "healthFactor": 1.007693,
+    "debtUsd": 1477.9,
+    "collateralUsd": 1885.08
   },
   {
-    "address": "0x2056ce938d6868be11c3e04175e2ba8849cfc4e9",
-    "healthFactor": 1.020863,
-    "debtUsd": 1058.9,
-    "collateralUsd": 1398.6
+    "address": "0x0dfbec5f920ed34b8428b2453ceb0f4fbdf89074",
+    "healthFactor": 1.00875,
+    "debtUsd": 4745.69,
+    "collateralUsd": 5767.73
+  },
+  {
+    "address": "0x112ff5af47f640dc9a47112eb8b93d283e635cd3",
+    "healthFactor": 1.009192,
+    "debtUsd": 294.94,
+    "collateralUsd": 382.95
+  },
+  {
+    "address": "0x20811867707eb9f2c8a1b2bb8bae6ce3f9befbdd",
+    "healthFactor": 1.01012,
+    "debtUsd": 42079.84,
+    "collateralUsd": 45705.06
   },
   {
     "address": "0x0d3ebdff681a6d77e6475d55dd6bad0de2883a6b",
-    "healthFactor": 1.023584,
-    "debtUsd": 4697.21,
-    "collateralUsd": 6136.66
+    "healthFactor": 1.017245,
+    "debtUsd": 4698.74,
+    "collateralUsd": 6101.88
   },
   {
-    "address": "0x156bd31282665c5c317c073148709c3727c2c395",
-    "healthFactor": 1.02594,
-    "debtUsd": 347.12,
-    "collateralUsd": 456.56
+    "address": "0x03cce2d0b0589efd1fe1fb18371e0fe4f5628c13",
+    "healthFactor": 1.017264,
+    "debtUsd": 1382.61,
+    "collateralUsd": 1492.28
   },
   {
-    "address": "0x0871a4346b950e379c8aa7cb48a8d4790e78e21c",
-    "healthFactor": 1.026745,
-    "debtUsd": 692.39,
-    "collateralUsd": 766.23
-  },
-  {
-    "address": "0x2296b04126b3b230633039840001dad405314ebf",
-    "healthFactor": 1.027122,
-    "debtUsd": 675.62,
-    "collateralUsd": 889.67
-  },
-  {
-    "address": "0x1abaebdfbb2ef13da9566bb5f54fc6279698da2c",
-    "healthFactor": 1.027648,
-    "debtUsd": 10331.86,
-    "collateralUsd": 11457.45
-  },
-  {
-    "address": "0x12109d69fb084ad3a64164c73cfe77e82dac2bc1",
-    "healthFactor": 1.029528,
-    "debtUsd": 1937.14,
-    "collateralUsd": 2116.01
-  },
-  {
-    "address": "0x008ff1d39ec2609f80528fffc492d0d4a21658a9",
-    "healthFactor": 1.029609,
-    "debtUsd": 383.47,
-    "collateralUsd": 506.17
-  },
-  {
-    "address": "0x214e28dae4f8256431b7d2535e705b52fc333bdf",
-    "healthFactor": 1.029789,
-    "debtUsd": 1856.47,
-    "collateralUsd": 2058.99
-  },
-  {
-    "address": "0x1867a791f41b63f202199e659de77403bd8c836a",
-    "healthFactor": 1.031581,
-    "debtUsd": 57223.19,
-    "collateralUsd": 75694.9
-  },
-  {
-    "address": "0x20270f1f28dd3a3f681882b2af8dbd82e25a2450",
-    "healthFactor": 1.032652,
-    "debtUsd": 390.22,
-    "collateralUsd": 424.17
-  },
-  {
-    "address": "0x02ecb9e5db1c4b007f59f9de0ab4ea1dd17cee5b",
-    "healthFactor": 1.034386,
-    "debtUsd": 796.79,
-    "collateralUsd": 867.57
-  },
-  {
-    "address": "0x21cfe08c7ddb08a8e5fa04baac8b2a1457696731",
-    "healthFactor": 1.035848,
-    "debtUsd": 638.56,
-    "collateralUsd": 796.92
-  },
-  {
-    "address": "0x0e67363e19333c95ee6af6f3c3fb73f93298eb8f",
-    "healthFactor": 1.036877,
-    "debtUsd": 294.25,
-    "collateralUsd": 391.15
-  },
-  {
-    "address": "0x1222d05b1126646d3619c5c614ecf00415d1d806",
-    "healthFactor": 1.038859,
-    "debtUsd": 12074.42,
-    "collateralUsd": 15112.79
-  },
-  {
-    "address": "0x1eea93e6298712dc06af96858256f06c03d5b545",
-    "healthFactor": 1.045932,
-    "debtUsd": 363.03,
-    "collateralUsd": 486.8
-  },
-  {
-    "address": "0x1cfb725a108cad7d61b3b871d83520daecb92c9e",
-    "healthFactor": 1.04677,
-    "debtUsd": 819.3,
-    "collateralUsd": 1033.27
-  },
-  {
-    "address": "0x10ebee1d8d831b21ed40098274633367d0f52516",
-    "healthFactor": 1.047307,
-    "debtUsd": 321.77,
-    "collateralUsd": 354.72
+    "address": "0x2056ce938d6868be11c3e04175e2ba8849cfc4e9",
+    "healthFactor": 1.017672,
+    "debtUsd": 1058.96,
+    "collateralUsd": 1393.91
   },
   {
     "address": "0x158349596a9f60bf285ef23318e81ab0f8d4ef60",
-    "healthFactor": 1.050375,
-    "debtUsd": 12878.34,
-    "collateralUsd": 17342.43
+    "healthFactor": 1.022085,
+    "debtUsd": 12882.68,
+    "collateralUsd": 16881.01
   },
   {
-    "address": "0x16fbb3d451651faa4e8c13c747f1de63a1d236c0",
-    "healthFactor": 1.058634,
-    "debtUsd": 22534,
-    "collateralUsd": 28748.36
+    "address": "0x1eea93e6298712dc06af96858256f06c03d5b545",
+    "healthFactor": 1.024494,
+    "debtUsd": 363.09,
+    "collateralUsd": 476.9
   },
   {
-    "address": "0x02d976b2ce01555a5b55a38f50cea9acc76dff81",
-    "healthFactor": 1.058839,
-    "debtUsd": 364.31,
-    "collateralUsd": 406.05
+    "address": "0x1abaebdfbb2ef13da9566bb5f54fc6279698da2c",
+    "healthFactor": 1.026515,
+    "debtUsd": 10321.1,
+    "collateralUsd": 11428.01
   },
   {
-    "address": "0x14e3eaee342c3c10de95656d2f6abfff19965633",
-    "healthFactor": 1.059041,
-    "debtUsd": 785.99,
-    "collateralUsd": 1067.18
+    "address": "0x2296b04126b3b230633039840001dad405314ebf",
+    "healthFactor": 1.027061,
+    "debtUsd": 675.84,
+    "collateralUsd": 889.91
   },
   {
-    "address": "0x03d0a5c9e1843986fb2f9335f7eb936754f7eaf0",
-    "healthFactor": 1.063682,
-    "debtUsd": 958.44,
-    "collateralUsd": 1307.18
+    "address": "0x0871a4346b950e379c8aa7cb48a8d4790e78e21c",
+    "healthFactor": 1.027459,
+    "debtUsd": 655.86,
+    "collateralUsd": 726.4
   },
   {
-    "address": "0x14dc1ced5f79c558a3154591029ed46ace172e69",
-    "healthFactor": 1.064292,
-    "debtUsd": 9051.48,
-    "collateralUsd": 12350.53
+    "address": "0x214e28dae4f8256431b7d2535e705b52fc333bdf",
+    "healthFactor": 1.027616,
+    "debtUsd": 1857.08,
+    "collateralUsd": 2054.59
   },
   {
-    "address": "0x162267264247cbf6a982f69220ea801aef5c2117",
-    "healthFactor": 1.064683,
-    "debtUsd": 4016.53,
-    "collateralUsd": 5939.19
+    "address": "0x12109d69fb084ad3a64164c73cfe77e82dac2bc1",
+    "healthFactor": 1.02947,
+    "debtUsd": 1937.45,
+    "collateralUsd": 2116.23
   },
   {
-    "address": "0x1d67067a1ddaf3948db2567426d88cb053bc4dd0",
-    "healthFactor": 1.064998,
-    "debtUsd": 4577.34,
-    "collateralUsd": 6249.81
+    "address": "0x008ff1d39ec2609f80528fffc492d0d4a21658a9",
+    "healthFactor": 1.02958,
+    "debtUsd": 383.57,
+    "collateralUsd": 506.29
   },
   {
-    "address": "0x0263eee91b0968860f6e12d1c56679a9c69f2fa1",
-    "healthFactor": 1.066541,
-    "debtUsd": 5982.49,
-    "collateralUsd": 8181.04
+    "address": "0x20270f1f28dd3a3f681882b2af8dbd82e25a2450",
+    "healthFactor": 1.032607,
+    "debtUsd": 378.65,
+    "collateralUsd": 411.58
   },
   {
-    "address": "0x1630cb2285d5459b0cf6cedda531991d3fa733b1",
-    "healthFactor": 1.067575,
-    "debtUsd": 14267.23,
-    "collateralUsd": 19527.41
-  },
-  {
-    "address": "0x1dc41799dbda4618bc85282151956abc0b63df1b",
-    "healthFactor": 1.067873,
-    "debtUsd": 319.9,
-    "collateralUsd": 439.13
-  },
-  {
-    "address": "0x009ff94a057c75f661e3e28f89b9b9d84e57fc67",
-    "healthFactor": 1.067992,
-    "debtUsd": 408.63,
-    "collateralUsd": 559.6
-  },
-  {
-    "address": "0x0f95b00f13576cec81d248e12a40134a1bfffae4",
-    "healthFactor": 1.069134,
-    "debtUsd": 35763.84,
-    "collateralUsd": 49020.96
-  },
-  {
-    "address": "0x19997fe22de68fd3db2fb792cbf2cf5107afe271",
-    "healthFactor": 1.069724,
-    "debtUsd": 26436.37,
-    "collateralUsd": 35811.62
-  },
-  {
-    "address": "0x19de5bf0977f858c530e8ec53242680386537d89",
-    "healthFactor": 1.072652,
-    "debtUsd": 4704.87,
-    "collateralUsd": 5684.46
-  },
-  {
-    "address": "0x163de2632636d50f997ea7be557ac171ef54d091",
-    "healthFactor": 1.072805,
-    "debtUsd": 15325.45,
-    "collateralUsd": 17444.26
-  },
-  {
-    "address": "0x0111574ecf3ba71c3ac44246d62849080d60718d",
-    "healthFactor": 1.072902,
-    "debtUsd": 20521.06,
-    "collateralUsd": 23360.31
+    "address": "0x02ecb9e5db1c4b007f59f9de0ab4ea1dd17cee5b",
+    "healthFactor": 1.03434,
+    "debtUsd": 769.79,
+    "collateralUsd": 838.13
   },
   {
     "address": "0x09fa0edbac72eee8a932fd913f7f7460521a1504",
-    "healthFactor": 1.073251,
-    "debtUsd": 3497.76,
-    "collateralUsd": 4593.46
+    "healthFactor": 1.035615,
+    "debtUsd": 3492.95,
+    "collateralUsd": 4358.26
   },
   {
-    "address": "0x1cc1b6b6ff8a565455bbcc089699b800c067b0f4",
-    "healthFactor": 1.075597,
-    "debtUsd": 1323.82,
-    "collateralUsd": 1825.52
+    "address": "0x14dc1ced5f79c558a3154591029ed46ace172e69",
+    "healthFactor": 1.035753,
+    "debtUsd": 9053.42,
+    "collateralUsd": 12021.92
+  },
+  {
+    "address": "0x1d67067a1ddaf3948db2567426d88cb053bc4dd0",
+    "healthFactor": 1.036337,
+    "debtUsd": 4578.88,
+    "collateralUsd": 6083.67
+  },
+  {
+    "address": "0x0e67363e19333c95ee6af6f3c3fb73f93298eb8f",
+    "healthFactor": 1.036715,
+    "debtUsd": 294.31,
+    "collateralUsd": 391.18
+  },
+  {
+    "address": "0x19997fe22de68fd3db2fb792cbf2cf5107afe271",
+    "healthFactor": 1.037311,
+    "debtUsd": 26405.02,
+    "collateralUsd": 34694.07
+  },
+  {
+    "address": "0x1630cb2285d5459b0cf6cedda531991d3fa733b1",
+    "healthFactor": 1.037993,
+    "debtUsd": 14271.58,
+    "collateralUsd": 18992.1
+  },
+  {
+    "address": "0x1222d05b1126646d3619c5c614ecf00415d1d806",
+    "healthFactor": 1.038832,
+    "debtUsd": 11461.34,
+    "collateralUsd": 14345.07
   },
   {
     "address": "0x1039d5691c671a2fe4cebef031b7fcd4f3601e00",
-    "healthFactor": 1.077035,
-    "debtUsd": 44929.2,
-    "collateralUsd": 62038.9
-  },
-  {
-    "address": "0x0ab4688e1807db7a689d76ee56de16658f94516c",
-    "healthFactor": 1.082973,
-    "debtUsd": 1963.56,
-    "collateralUsd": 2726.26
-  },
-  {
-    "address": "0x1d511c45db0450f96f9e632065cc7d98038de813",
-    "healthFactor": 1.085705,
-    "debtUsd": 601.92,
-    "collateralUsd": 837.83
-  },
-  {
-    "address": "0x1b2c5b95413487f27723a655e9f68eb6985fe1df",
-    "healthFactor": 1.087512,
-    "debtUsd": 1505.13,
-    "collateralUsd": 2098.52
-  },
-  {
-    "address": "0x1fa5b0691d491e766a8236e0c9fbbfb0fb04b137",
-    "healthFactor": 1.090543,
-    "debtUsd": 96198.02,
-    "collateralUsd": 134497.48
-  },
-  {
-    "address": "0x09cdcb0c0f52ba0017ef5e5fe1ad4ac895b18c4e",
-    "healthFactor": 1.091624,
-    "debtUsd": 6179.91,
-    "collateralUsd": 8648.89
-  },
-  {
-    "address": "0x02f2a70087cd27d00c5db38ab8087683508b0da0",
-    "healthFactor": 1.093334,
-    "debtUsd": 297.68,
-    "collateralUsd": 417.27
-  },
-  {
-    "address": "0x063ad9760a78b1bd301366cc8d9a419051d25944",
-    "healthFactor": 1.09908,
-    "debtUsd": 6102.21,
-    "collateralUsd": 8598.48
-  },
-  {
-    "address": "0x0163bc00c996c24c8b7d271c6700e942afc00151",
-    "healthFactor": 1.100561,
-    "debtUsd": 1890.46,
-    "collateralUsd": 2667.4
-  },
-  {
-    "address": "0x193a1b0204bbd0888b51c64f9bc191340d553195",
-    "healthFactor": 1.100793,
-    "debtUsd": 32367.81,
-    "collateralUsd": 45679.8
-  },
-  {
-    "address": "0x0da8ca7d3f4b54199d90a24a6ee3869af44ca2df",
-    "healthFactor": 1.10114,
-    "debtUsd": 119312.94,
-    "collateralUsd": 139506.11
-  },
-  {
-    "address": "0x0fa68e1cc09c8d86e087b28703a36d1740528041",
-    "healthFactor": 1.102014,
-    "debtUsd": 1135.23,
-    "collateralUsd": 1603.89
-  },
-  {
-    "address": "0x135dd032f2714380c9b8f34410bdc01dbd2080e1",
-    "healthFactor": 1.103096,
-    "debtUsd": 4455.04,
-    "collateralUsd": 6300.42
+    "healthFactor": 1.046976,
+    "debtUsd": 44936.83,
+    "collateralUsd": 60317.67
   },
   {
     "address": "0x033bdd79e0bf7637a0d83b2526885ccd42ed1c4a",
-    "healthFactor": 1.103356,
-    "debtUsd": 5332.04,
-    "collateralUsd": 7088.12
+    "healthFactor": 1.047113,
+    "debtUsd": 5333.3,
+    "collateralUsd": 6728.39
   },
   {
-    "address": "0x1deb0db7600f5636d35c36cf2eab21641bbb984e",
-    "healthFactor": 1.103482,
-    "debtUsd": 3536.92,
-    "collateralUsd": 5003.76
+    "address": "0x10ebee1d8d831b21ed40098274633367d0f52516",
+    "healthFactor": 1.04726,
+    "debtUsd": 310.44,
+    "collateralUsd": 342.22
   },
   {
-    "address": "0x2211cbe6f517da82d832622a385a8569ab57d9bc",
-    "healthFactor": 1.10675,
-    "debtUsd": 1578.08,
-    "collateralUsd": 2239.15
+    "address": "0x03d0a5c9e1843986fb2f9335f7eb936754f7eaf0",
+    "healthFactor": 1.049776,
+    "debtUsd": 958.16,
+    "collateralUsd": 1289.71
   },
   {
-    "address": "0x16ef5b158218bc03799f71785337ef71bfebb404",
-    "healthFactor": 1.107009,
-    "debtUsd": 22375.59,
-    "collateralUsd": 26073.66
+    "address": "0x0ab4688e1807db7a689d76ee56de16658f94516c",
+    "healthFactor": 1.053208,
+    "debtUsd": 1964.2,
+    "collateralUsd": 2652.2
   },
   {
-    "address": "0x0434fe393569c514089c4fc2a931cf5ccd36d697",
-    "healthFactor": 1.109178,
-    "debtUsd": 513.32,
-    "collateralUsd": 729.95
+    "address": "0x02d976b2ce01555a5b55a38f50cea9acc76dff81",
+    "healthFactor": 1.058792,
+    "debtUsd": 351.96,
+    "collateralUsd": 392.27
   },
   {
-    "address": "0x1836d3e1d887a5f3ca6bdd97d1983ff10faebe53",
-    "healthFactor": 1.10988,
-    "debtUsd": 1081.54,
-    "collateralUsd": 1538.95
+    "address": "0x14e3eaee342c3c10de95656d2f6abfff19965633",
+    "healthFactor": 1.058977,
+    "debtUsd": 786.26,
+    "collateralUsd": 1067.47
+  },
+  {
+    "address": "0x1867a791f41b63f202199e659de77403bd8c836a",
+    "healthFactor": 1.059078,
+    "debtUsd": 41770.83,
+    "collateralUsd": 56730.55
+  },
+  {
+    "address": "0x09cdcb0c0f52ba0017ef5e5fe1ad4ac895b18c4e",
+    "healthFactor": 1.060197,
+    "debtUsd": 6181.93,
+    "collateralUsd": 8402.65
+  },
+  {
+    "address": "0x162267264247cbf6a982f69220ea801aef5c2117",
+    "healthFactor": 1.060436,
+    "debtUsd": 3891.35,
+    "collateralUsd": 5731.03
+  },
+  {
+    "address": "0x1fa5b0691d491e766a8236e0c9fbbfb0fb04b137",
+    "healthFactor": 1.062309,
+    "debtUsd": 96210.41,
+    "collateralUsd": 131032.34
+  },
+  {
+    "address": "0x02f2a70087cd27d00c5db38ab8087683508b0da0",
+    "healthFactor": 1.064078,
+    "debtUsd": 297.79,
+    "collateralUsd": 406.24
+  },
+  {
+    "address": "0x0f95b00f13576cec81d248e12a40134a1bfffae4",
+    "healthFactor": 1.064569,
+    "debtUsd": 35422.62,
+    "collateralUsd": 48345.91
+  },
+  {
+    "address": "0x0263eee91b0968860f6e12d1c56679a9c69f2fa1",
+    "healthFactor": 1.066001,
+    "debtUsd": 5983.86,
+    "collateralUsd": 8178.74
+  },
+  {
+    "address": "0x063ad9760a78b1bd301366cc8d9a419051d25944",
+    "healthFactor": 1.067133,
+    "debtUsd": 6104.27,
+    "collateralUsd": 8351.36
+  },
+  {
+    "address": "0x009ff94a057c75f661e3e28f89b9b9d84e57fc67",
+    "healthFactor": 1.067962,
+    "debtUsd": 397.28,
+    "collateralUsd": 544.03
+  },
+  {
+    "address": "0x193a1b0204bbd0888b51c64f9bc191340d553195",
+    "healthFactor": 1.069144,
+    "debtUsd": 32378.72,
+    "collateralUsd": 44381.41
+  },
+  {
+    "address": "0x1dc41799dbda4618bc85282151956abc0b63df1b",
+    "healthFactor": 1.071211,
+    "debtUsd": 318.64,
+    "collateralUsd": 438.74
+  },
+  {
+    "address": "0x163de2632636d50f997ea7be557ac171ef54d091",
+    "healthFactor": 1.072377,
+    "debtUsd": 15330.61,
+    "collateralUsd": 17443.18
+  },
+  {
+    "address": "0x0111574ecf3ba71c3ac44246d62849080d60718d",
+    "healthFactor": 1.072837,
+    "debtUsd": 20527.36,
+    "collateralUsd": 23366.07
+  },
+  {
+    "address": "0x135dd032f2714380c9b8f34410bdc01dbd2080e1",
+    "healthFactor": 1.073623,
+    "debtUsd": 4456.53,
+    "collateralUsd": 6134.15
+  },
+  {
+    "address": "0x19de5bf0977f858c530e8ec53242680386537d89",
+    "healthFactor": 1.074267,
+    "debtUsd": 4464.74,
+    "collateralUsd": 5406.58
+  },
+  {
+    "address": "0x1cc1b6b6ff8a565455bbcc089699b800c067b0f4",
+    "healthFactor": 1.075586,
+    "debtUsd": 1287.54,
+    "collateralUsd": 1775.45
   },
   {
     "address": "0x203864bf3d036cc1535622e5ef2d3de9243a925c",
-    "healthFactor": 1.113274,
-    "debtUsd": 3615.05,
-    "collateralUsd": 5159.67
+    "healthFactor": 1.084234,
+    "debtUsd": 3616.24,
+    "collateralUsd": 5026.74
   },
   {
-    "address": "0x23c2cc27b330f000fbde559ccda5265c4c7f3dcc",
-    "healthFactor": 1.114574,
-    "debtUsd": 4779.51,
-    "collateralUsd": 6829.64
+    "address": "0x1d511c45db0450f96f9e632065cc7d98038de813",
+    "healthFactor": 1.085583,
+    "debtUsd": 602.05,
+    "collateralUsd": 837.92
   },
   {
-    "address": "0x23622a177964888665beb695fff7d5da169d181a",
-    "healthFactor": 1.116345,
-    "debtUsd": 618.55,
-    "collateralUsd": 883.77
-  },
-  {
-    "address": "0x22f438e9c0ce099c1a765e38361506ac667c1440",
-    "healthFactor": 1.119949,
-    "debtUsd": 4093.06,
-    "collateralUsd": 5876.95
-  },
-  {
-    "address": "0x0bfb14c1502d7bd5014afe6e98a2cf84359415e8",
-    "healthFactor": 1.121388,
-    "debtUsd": 16693.72,
-    "collateralUsd": 24009.92
-  },
-  {
-    "address": "0x09cb0ea77449fbbc51792be5a114bddad60789db",
-    "healthFactor": 1.121874,
-    "debtUsd": 3483.63,
-    "collateralUsd": 5010.51
+    "address": "0x1b2c5b95413487f27723a655e9f68eb6985fe1df",
+    "healthFactor": 1.087451,
+    "debtUsd": 1505.32,
+    "collateralUsd": 2098.67
   },
   {
     "address": "0x215ab57083c59a42b5755892a41a484790a05b71",
-    "healthFactor": 1.1242,
-    "debtUsd": 3511.78,
-    "collateralUsd": 5408.15
+    "healthFactor": 1.088954,
+    "debtUsd": 3512.94,
+    "collateralUsd": 5240.32
   },
   {
-    "address": "0x162392a8386bd882896fa19e840fdba607ea6d6c",
-    "healthFactor": 1.124339,
-    "debtUsd": 1907.55,
-    "collateralUsd": 2257.62
+    "address": "0x0bfb14c1502d7bd5014afe6e98a2cf84359415e8",
+    "healthFactor": 1.090527,
+    "debtUsd": 16698.92,
+    "collateralUsd": 23356.36
   },
   {
-    "address": "0x03168150edd69cc3d7a9f8e61e69c30804689d3e",
-    "healthFactor": 1.128133,
-    "debtUsd": 7000.5,
-    "collateralUsd": 10124.99
-  },
-  {
-    "address": "0x1cfc7063519ced4ab4cff2cc9f998885991e02ee",
-    "healthFactor": 1.129389,
-    "debtUsd": 4090.09,
-    "collateralUsd": 5922.17
-  },
-  {
-    "address": "0x04903c4c148dd276555df99fb16fbf1708a43a19",
-    "healthFactor": 1.129487,
-    "debtUsd": 942291.29,
-    "collateralUsd": 1364494.82
-  },
-  {
-    "address": "0x17d73c2d877db901ef13ad5023be5f2561d244ff",
-    "healthFactor": 1.129487,
-    "debtUsd": 2083.02,
-    "collateralUsd": 3016.34
-  },
-  {
-    "address": "0x1aaabd79240616add8b8a054bc05d417dee6b363",
-    "healthFactor": 1.134446,
-    "debtUsd": 5108.53,
-    "collateralUsd": 7393.44
-  },
-  {
-    "address": "0x234ff38ca8eabecb965846ec80c84fec36c17ffc",
-    "healthFactor": 1.134967,
-    "debtUsd": 4181.27,
-    "collateralUsd": 6084.11
-  },
-  {
-    "address": "0x256fb5595a46718db752f194aaba0634cacd8da1",
-    "healthFactor": 1.135284,
-    "debtUsd": 55198.24,
-    "collateralUsd": 66489.5
-  },
-  {
-    "address": "0x0331e435148481a32877c500dc1c0edb9153488c",
-    "healthFactor": 1.137522,
-    "debtUsd": 4506.18,
-    "collateralUsd": 6406.99
-  },
-  {
-    "address": "0x0c52b085483cf4ce13bc4b89d04e81af7641833a",
-    "healthFactor": 1.139781,
-    "debtUsd": 8387.11,
-    "collateralUsd": 12255.73
-  },
-  {
-    "address": "0x207364cbd2c88fa70c5c70b29bdf305e453dccfa",
-    "healthFactor": 1.144566,
-    "debtUsd": 5043.54,
-    "collateralUsd": 7400.85
-  },
-  {
-    "address": "0x2632f01103e3e8d2e735a408b872bcce82553591",
-    "healthFactor": 1.146219,
-    "debtUsd": 3528.39,
-    "collateralUsd": 5171.15
-  },
-  {
-    "address": "0x08d5f742657a2a0612986ec54a2f318f165d0eed",
-    "healthFactor": 1.146766,
-    "debtUsd": 1103.44,
-    "collateralUsd": 1608.97
-  },
-  {
-    "address": "0x193762b750f62ebca9c88ebedd17f4d0fa48c08a",
-    "healthFactor": 1.147054,
-    "debtUsd": 31818.9,
-    "collateralUsd": 46790.71
-  },
-  {
-    "address": "0x1d65083d0bcf8f3b3f411d5ea53c3be86a59d429",
-    "healthFactor": 1.148774,
-    "debtUsd": 613.86,
-    "collateralUsd": 904.09
+    "address": "0x16fbb3d451651faa4e8c13c747f1de63a1d236c0",
+    "healthFactor": 1.092489,
+    "debtUsd": 23984.18,
+    "collateralUsd": 31576.1
   },
   {
     "address": "0x1342a29f18d3b0a9a7898396935ad54858e9081f",
-    "healthFactor": 1.148776,
-    "debtUsd": 3613.21,
-    "collateralUsd": 5000.92
+    "healthFactor": 1.094417,
+    "debtUsd": 3601.13,
+    "collateralUsd": 4748.36
   },
   {
-    "address": "0x07d8fc594408c18fa354a884fcd6e10723413793",
-    "healthFactor": 1.152039,
-    "debtUsd": 5996.53,
-    "collateralUsd": 8856.71
+    "address": "0x04903c4c148dd276555df99fb16fbf1708a43a19",
+    "healthFactor": 1.096961,
+    "debtUsd": 942471.67,
+    "collateralUsd": 1325455.07
   },
   {
-    "address": "0x0f3826382f3f5ffee913137a3275661d0de1ebdd",
-    "healthFactor": 1.158828,
-    "debtUsd": 336.46,
-    "collateralUsd": 410.43
+    "address": "0x17d73c2d877db901ef13ad5023be5f2561d244ff",
+    "healthFactor": 1.097468,
+    "debtUsd": 2083.7,
+    "collateralUsd": 2931.79
   },
   {
-    "address": "0x21aa0fb5dc8b04c87bcfdb3c3e09dd702d82cdf3",
-    "healthFactor": 1.162016,
-    "debtUsd": 242.29,
-    "collateralUsd": 296.36
+    "address": "0x1aaabd79240616add8b8a054bc05d417dee6b363",
+    "healthFactor": 1.099876,
+    "debtUsd": 5109.19,
+    "collateralUsd": 7169.85
   },
   {
-    "address": "0x090e92e0e6279678446f72d44e28fd3a6164176c",
-    "healthFactor": 1.162112,
-    "debtUsd": 294.15,
-    "collateralUsd": 359.83
+    "address": "0x0163bc00c996c24c8b7d271c6700e942afc00151",
+    "healthFactor": 1.100499,
+    "debtUsd": 1891.07,
+    "collateralUsd": 2668.1
   },
   {
-    "address": "0x0845bdff5b562ff9c4d61cac6a47fe707ee20652",
-    "healthFactor": 1.166049,
-    "debtUsd": 295.49,
-    "collateralUsd": 362.69
+    "address": "0x0da8ca7d3f4b54199d90a24a6ee3869af44ca2df",
+    "healthFactor": 1.100966,
+    "debtUsd": 119351.83,
+    "collateralUsd": 139525.54
   },
   {
-    "address": "0x241bc5b0d0accf90776be8b980bff251b47445a3",
-    "healthFactor": 1.166876,
-    "debtUsd": 463.77,
-    "collateralUsd": 569.64
+    "address": "0x0fa68e1cc09c8d86e087b28703a36d1740528041",
+    "healthFactor": 1.101948,
+    "debtUsd": 1135.61,
+    "collateralUsd": 1604.33
   },
   {
-    "address": "0x180c2be8d65f02813caa5e5cfeea4562b3ef91a3",
-    "healthFactor": 1.166981,
-    "debtUsd": 1095.58,
-    "collateralUsd": 1345.81
+    "address": "0x1deb0db7600f5636d35c36cf2eab21641bbb984e",
+    "healthFactor": 1.103415,
+    "debtUsd": 3538.08,
+    "collateralUsd": 5005.1
   },
   {
-    "address": "0x1ba505cd7bf67091685bba0e9e4c36bad39d1e9c",
-    "healthFactor": 1.167353,
-    "debtUsd": 1314.16,
-    "collateralUsd": 1614.83
+    "address": "0x234ff38ca8eabecb965846ec80c84fec36c17ffc",
+    "healthFactor": 1.105457,
+    "debtUsd": 4182.65,
+    "collateralUsd": 5927.87
   },
   {
-    "address": "0x1424d354526b50a00e1ff2f7fc395c5d7126fb6a",
-    "healthFactor": 1.167518,
-    "debtUsd": 378.45,
-    "collateralUsd": 543.79
+    "address": "0x08d5f742657a2a0612986ec54a2f318f165d0eed",
+    "healthFactor": 1.106638,
+    "debtUsd": 1103.62,
+    "collateralUsd": 1553.37
   },
   {
-    "address": "0x0123f284b6e3d5184273e82c3308ee3f30b1dd5d",
-    "healthFactor": 1.169351,
-    "debtUsd": 207.28,
-    "collateralUsd": 255.14
+    "address": "0x2211cbe6f517da82d832622a385a8569ab57d9bc",
+    "healthFactor": 1.106684,
+    "debtUsd": 1578.6,
+    "collateralUsd": 2239.76
   },
   {
-    "address": "0x014979b7c33f4fd3b5c77468d193cdd7d9b43b6b",
-    "healthFactor": 1.173293,
-    "debtUsd": 1818.76,
-    "collateralUsd": 2702.84
+    "address": "0x16ef5b158218bc03799f71785337ef71bfebb404",
+    "healthFactor": 1.10696,
+    "debtUsd": 21627.91,
+    "collateralUsd": 25201.3
   },
   {
-    "address": "0x0aa4f64dc4b52fa2ef6e3a5747b1922fbefa4e94",
-    "healthFactor": 1.178634,
-    "debtUsd": 461.98,
-    "collateralUsd": 698.08
+    "address": "0x0434fe393569c514089c4fc2a931cf5ccd36d697",
+    "healthFactor": 1.109115,
+    "debtUsd": 513.38,
+    "collateralUsd": 730
   },
   {
-    "address": "0x18faa98221e4a6b2f074c0625789a81a9f088cf3",
-    "healthFactor": 1.179345,
-    "debtUsd": 2034.27,
-    "collateralUsd": 3075.77
+    "address": "0x1836d3e1d887a5f3ca6bdd97d1983ff10faebe53",
+    "healthFactor": 1.109977,
+    "debtUsd": 1081.74,
+    "collateralUsd": 1539.36
+  },
+  {
+    "address": "0x23c2cc27b330f000fbde559ccda5265c4c7f3dcc",
+    "healthFactor": 1.114512,
+    "debtUsd": 4780.1,
+    "collateralUsd": 6830.09
+  },
+  {
+    "address": "0x207364cbd2c88fa70c5c70b29bdf305e453dccfa",
+    "healthFactor": 1.114955,
+    "debtUsd": 5044.1,
+    "collateralUsd": 7210.18
+  },
+  {
+    "address": "0x21cfe08c7ddb08a8e5fa04baac8b2a1457696731",
+    "healthFactor": 1.116626,
+    "debtUsd": 348.61,
+    "collateralUsd": 468.99
+  },
+  {
+    "address": "0x23622a177964888665beb695fff7d5da169d181a",
+    "healthFactor": 1.11728,
+    "debtUsd": 609.19,
+    "collateralUsd": 871.32
+  },
+  {
+    "address": "0x0c52b085483cf4ce13bc4b89d04e81af7641833a",
+    "healthFactor": 1.117649,
+    "debtUsd": 8321.34,
+    "collateralUsd": 11923.51
+  },
+  {
+    "address": "0x1d65083d0bcf8f3b3f411d5ea53c3be86a59d429",
+    "healthFactor": 1.118054,
+    "debtUsd": 613.96,
+    "collateralUsd": 880.06
+  },
+  {
+    "address": "0x22f438e9c0ce099c1a765e38361506ac667c1440",
+    "healthFactor": 1.119936,
+    "debtUsd": 3988,
+    "collateralUsd": 5726.03
+  },
+  {
+    "address": "0x09cb0ea77449fbbc51792be5a114bddad60789db",
+    "healthFactor": 1.121806,
+    "debtUsd": 3484.77,
+    "collateralUsd": 5011.85
+  },
+  {
+    "address": "0x2632f01103e3e8d2e735a408b872bcce82553591",
+    "healthFactor": 1.122386,
+    "debtUsd": 3528.78,
+    "collateralUsd": 5064.58
+  },
+  {
+    "address": "0x162392a8386bd882896fa19e840fdba607ea6d6c",
+    "healthFactor": 1.124289,
+    "debtUsd": 1843.18,
+    "collateralUsd": 2181.33
+  },
+  {
+    "address": "0x03168150edd69cc3d7a9f8e61e69c30804689d3e",
+    "healthFactor": 1.127639,
+    "debtUsd": 7001.62,
+    "collateralUsd": 10122.17
+  },
+  {
+    "address": "0x1cfc7063519ced4ab4cff2cc9f998885991e02ee",
+    "healthFactor": 1.129213,
+    "debtUsd": 4090.97,
+    "collateralUsd": 5922.53
+  },
+  {
+    "address": "0x256fb5595a46718db752f194aaba0634cacd8da1",
+    "healthFactor": 1.135452,
+    "debtUsd": 55204.33,
+    "collateralUsd": 66506.67
+  },
+  {
+    "address": "0x193762b750f62ebca9c88ebedd17f4d0fa48c08a",
+    "healthFactor": 1.146013,
+    "debtUsd": 31825.55,
+    "collateralUsd": 46758.11
   },
   {
     "address": "0x192def0e75e50736b2f8cfe640ebf11a984323ea",
-    "healthFactor": 1.181928,
-    "debtUsd": 859.93,
-    "collateralUsd": 1303.05
+    "healthFactor": 1.148599,
+    "debtUsd": 860.05,
+    "collateralUsd": 1266.47
+  },
+  {
+    "address": "0x0331e435148481a32877c500dc1c0edb9153488c",
+    "healthFactor": 1.148644,
+    "debtUsd": 4507.35,
+    "collateralUsd": 6462.11
   },
   {
     "address": "0x2619ff632e069d2b9798f85da72194e430743ea1",
-    "healthFactor": 1.183164,
-    "debtUsd": 8239.23,
-    "collateralUsd": 12497.9
+    "healthFactor": 1.151132,
+    "debtUsd": 8242,
+    "collateralUsd": 12163.63
   },
   {
-    "address": "0x0096d4906508ab471738d2565be1852d6460a394",
-    "healthFactor": 1.185048,
-    "debtUsd": 34597.66,
-    "collateralUsd": 52410.79
+    "address": "0x07d8fc594408c18fa354a884fcd6e10723413793",
+    "healthFactor": 1.151974,
+    "debtUsd": 5997.48,
+    "collateralUsd": 8857.61
   },
   {
-    "address": "0x0fcd93be9734ffce335a6231364e79ee4242334f",
-    "healthFactor": 1.185397,
-    "debtUsd": 23034.24,
-    "collateralUsd": 35006.05
-  },
-  {
-    "address": "0x24f529e2fcd4b94e2f03bc916a9dbd6053060187",
-    "healthFactor": 1.187148,
-    "debtUsd": 305.18,
-    "collateralUsd": 384.39
+    "address": "0x014979b7c33f4fd3b5c77468d193cdd7d9b43b6b",
+    "healthFactor": 1.154212,
+    "debtUsd": 1802.06,
+    "collateralUsd": 2635.33
   },
   {
     "address": "0x1afb8624a2f98d7621e752879b259e44267e02f7",
-    "healthFactor": 1.190012,
-    "debtUsd": 9057.77,
-    "collateralUsd": 13819.04
-  },
-  {
-    "address": "0x02be78828b55640b714a64c1ff43cac8fc3b54da",
-    "healthFactor": 1.19189,
-    "debtUsd": 43454.16,
-    "collateralUsd": 66409.92
-  },
-  {
-    "address": "0x21defdfbe9fdb8e03a05839873dfd1454632b9cc",
-    "healthFactor": 1.192136,
-    "debtUsd": 21689.24,
-    "collateralUsd": 33149.41
-  },
-  {
-    "address": "0x10b063e0856871161a40edda57c3e012e6d65676",
-    "healthFactor": 1.199062,
-    "debtUsd": 636.82,
-    "collateralUsd": 978.96
-  },
-  {
-    "address": "0x15cc645652a7414a2496b15ca5f426ed5e602def",
-    "healthFactor": 1.202371,
-    "debtUsd": 4790.04,
-    "collateralUsd": 7383.85
-  },
-  {
-    "address": "0x1ac6a13d91b6e4ca2d5bd17d1185ecede11a3ee8",
-    "healthFactor": 1.207011,
-    "debtUsd": 1434.84,
-    "collateralUsd": 2220.35
-  },
-  {
-    "address": "0x1e53941c38bd304b88cf901c19bebaafc7b33c84",
-    "healthFactor": 1.208598,
-    "debtUsd": 7304.71,
-    "collateralUsd": 12093.78
-  },
-  {
-    "address": "0x0f3d463a7c8a8c875fe5d683e4600ef39bee96e6",
-    "healthFactor": 1.216421,
-    "debtUsd": 4434.19,
-    "collateralUsd": 6915.17
-  },
-  {
-    "address": "0x121207a03e0d3a168fd1ac67eaf7afd5e6991a7c",
-    "healthFactor": 1.21856,
-    "debtUsd": 2464.64,
-    "collateralUsd": 3550.59
+    "healthFactor": 1.156756,
+    "debtUsd": 9060.82,
+    "collateralUsd": 13437.37
   },
   {
     "address": "0x14b7f175e1895f56882c6f5223f84da90855fd20",
-    "healthFactor": 1.219022,
-    "debtUsd": 4651.38,
-    "collateralUsd": 7216.73
+    "healthFactor": 1.158375,
+    "debtUsd": 4652.08,
+    "collateralUsd": 6859.24
   },
   {
-    "address": "0x1adaa1638b9b4097ca8878aba5ed1b15337e8583",
-    "healthFactor": 1.219031,
-    "debtUsd": 32297.68,
-    "collateralUsd": 50476.74
+    "address": "0x0f3826382f3f5ffee913137a3275661d0de1ebdd",
+    "healthFactor": 1.158776,
+    "debtUsd": 324.91,
+    "collateralUsd": 396.31
   },
   {
-    "address": "0x12df20c7c8997792fc9a078a36b4706217bf8a22",
-    "healthFactor": 1.219792,
-    "debtUsd": 4929.9,
-    "collateralUsd": 7709.55
+    "address": "0x21aa0fb5dc8b04c87bcfdb3c3e09dd702d82cdf3",
+    "healthFactor": 1.161965,
+    "debtUsd": 234.78,
+    "collateralUsd": 287.16
   },
   {
-    "address": "0x1909a21d5e5c158c520946e54bbc62ea1a8ff1e6",
-    "healthFactor": 1.226281,
-    "debtUsd": 3337.74,
-    "collateralUsd": 5247.45
+    "address": "0x090e92e0e6279678446f72d44e28fd3a6164176c",
+    "healthFactor": 1.16206,
+    "debtUsd": 283.74,
+    "collateralUsd": 347.07
   },
   {
-    "address": "0x1afac010d80272d06e2d603d4ae666dc4b81818a",
-    "healthFactor": 1.226675,
-    "debtUsd": 4481.31,
-    "collateralUsd": 7047.58
+    "address": "0x0fcd93be9734ffce335a6231364e79ee4242334f",
+    "healthFactor": 1.164586,
+    "debtUsd": 22961.11,
+    "collateralUsd": 34282.28
   },
   {
-    "address": "0x09362813556b74c5383f84d2fb8dc78533afac28",
-    "healthFactor": 1.227921,
-    "debtUsd": 1878.09,
-    "collateralUsd": 2946.16
+    "address": "0x02be78828b55640b714a64c1ff43cac8fc3b54da",
+    "healthFactor": 1.164695,
+    "debtUsd": 43465.23,
+    "collateralUsd": 64911.09
   },
   {
-    "address": "0x19b93c880ea5e6d2ab7e6ecefd35c3caac4ff260",
-    "healthFactor": 1.228356,
-    "debtUsd": 4708.67,
-    "collateralUsd": 7236.84
+    "address": "0x0845bdff5b562ff9c4d61cac6a47fe707ee20652",
+    "healthFactor": 1.165997,
+    "debtUsd": 285.02,
+    "collateralUsd": 349.83
   },
   {
-    "address": "0x064d2af87a0b03aa65646c9a5c739f8cf0335c94",
-    "healthFactor": 1.231687,
-    "debtUsd": 82806.81,
-    "collateralUsd": 129600.92
+    "address": "0x121207a03e0d3a168fd1ac67eaf7afd5e6991a7c",
+    "healthFactor": 1.166219,
+    "debtUsd": 2465.02,
+    "collateralUsd": 3395.7
   },
   {
-    "address": "0x0a7e2ea1701107d9fc60eedf8e93dd5994e3e6d4",
-    "healthFactor": 1.232188,
-    "debtUsd": 4047.51,
-    "collateralUsd": 6421.53
+    "address": "0x241bc5b0d0accf90776be8b980bff251b47445a3",
+    "healthFactor": 1.166824,
+    "debtUsd": 447.68,
+    "collateralUsd": 549.86
   },
   {
-    "address": "0x0c6215a493689c3e330bb6ec717ad7e6699b7ce2",
-    "healthFactor": 1.232681,
-    "debtUsd": 929.49,
-    "collateralUsd": 1468.93
+    "address": "0x180c2be8d65f02813caa5e5cfeea4562b3ef91a3",
+    "healthFactor": 1.16693,
+    "debtUsd": 1058.11,
+    "collateralUsd": 1299.72
   },
   {
-    "address": "0x20bdc0f700ea7d1e6e4a798c8ac4a40250c05419",
-    "healthFactor": 1.233487,
-    "debtUsd": 2967.07,
-    "collateralUsd": 4486.04
+    "address": "0x1ba505cd7bf67091685bba0e9e4c36bad39d1e9c",
+    "healthFactor": 1.167302,
+    "debtUsd": 1269.87,
+    "collateralUsd": 1560.33
+  },
+  {
+    "address": "0x15cc645652a7414a2496b15ca5f426ed5e602def",
+    "healthFactor": 1.169018,
+    "debtUsd": 4791.65,
+    "collateralUsd": 7181.45
+  },
+  {
+    "address": "0x10b063e0856871161a40edda57c3e012e6d65676",
+    "healthFactor": 1.169597,
+    "debtUsd": 637.04,
+    "collateralUsd": 955.22
+  },
+  {
+    "address": "0x1424d354526b50a00e1ff2f7fc395c5d7126fb6a",
+    "healthFactor": 1.170632,
+    "debtUsd": 359.34,
+    "collateralUsd": 517.88
   },
   {
     "address": "0x0ef9670cf2697be1a1ae05bf83668d32063f0ddd",
-    "healthFactor": 1.234984,
-    "debtUsd": 2314.78,
-    "collateralUsd": 3523.64
+    "healthFactor": 1.170822,
+    "debtUsd": 2315.15,
+    "collateralUsd": 3340.54
   },
   {
     "address": "0x19c907ab2000ad5106432ef341aecde7a926edb2",
-    "healthFactor": 1.235498,
-    "debtUsd": 1170.99,
-    "collateralUsd": 1743.31
+    "healthFactor": 1.17228,
+    "debtUsd": 1171.14,
+    "collateralUsd": 1654.33
+  },
+  {
+    "address": "0x1e53941c38bd304b88cf901c19bebaafc7b33c84",
+    "healthFactor": 1.172752,
+    "debtUsd": 7305.66,
+    "collateralUsd": 11736.61
+  },
+  {
+    "address": "0x1cfb725a108cad7d61b3b871d83520daecb92c9e",
+    "healthFactor": 1.177049,
+    "debtUsd": 819.43,
+    "collateralUsd": 1162.05
+  },
+  {
+    "address": "0x0aa4f64dc4b52fa2ef6e3a5747b1922fbefa4e94",
+    "healthFactor": 1.178933,
+    "debtUsd": 461.88,
+    "collateralUsd": 698.12
+  },
+  {
+    "address": "0x18faa98221e4a6b2f074c0625789a81a9f088cf3",
+    "healthFactor": 1.179274,
+    "debtUsd": 2034.93,
+    "collateralUsd": 3076.59
+  },
+  {
+    "address": "0x0096d4906508ab471738d2565be1852d6460a394",
+    "healthFactor": 1.182037,
+    "debtUsd": 34608.22,
+    "collateralUsd": 52301.07
+  },
+  {
+    "address": "0x12df20c7c8997792fc9a078a36b4706217bf8a22",
+    "healthFactor": 1.187201,
+    "debtUsd": 4931.55,
+    "collateralUsd": 7506.08
+  },
+  {
+    "address": "0x24f529e2fcd4b94e2f03bc916a9dbd6053060187",
+    "healthFactor": 1.18754,
+    "debtUsd": 305.1,
+    "collateralUsd": 384.43
+  },
+  {
+    "address": "0x1adaa1638b9b4097ca8878aba5ed1b15337e8583",
+    "healthFactor": 1.188556,
+    "debtUsd": 32308.55,
+    "collateralUsd": 49231.46
+  },
+  {
+    "address": "0x1ac6a13d91b6e4ca2d5bd17d1185ecede11a3ee8",
+    "healthFactor": 1.188908,
+    "debtUsd": 1435.18,
+    "collateralUsd": 2187.56
+  },
+  {
+    "address": "0x1909a21d5e5c158c520946e54bbc62ea1a8ff1e6",
+    "healthFactor": 1.191454,
+    "debtUsd": 3338.87,
+    "collateralUsd": 5100.14
+  },
+  {
+    "address": "0x064d2af87a0b03aa65646c9a5c739f8cf0335c94",
+    "healthFactor": 1.191777,
+    "debtUsd": 82820.85,
+    "collateralUsd": 125446.22
+  },
+  {
+    "address": "0x21defdfbe9fdb8e03a05839873dfd1454632b9cc",
+    "healthFactor": 1.192237,
+    "debtUsd": 21589.8,
+    "collateralUsd": 33000.22
+  },
+  {
+    "address": "0x1afac010d80272d06e2d603d4ae666dc4b81818a",
+    "healthFactor": 1.19264,
+    "debtUsd": 4481.9,
+    "collateralUsd": 6852.94
+  },
+  {
+    "address": "0x20bdc0f700ea7d1e6e4a798c8ac4a40250c05419",
+    "healthFactor": 1.196381,
+    "debtUsd": 2952.02,
+    "collateralUsd": 4331.71
+  },
+  {
+    "address": "0x19b93c880ea5e6d2ab7e6ecefd35c3caac4ff260",
+    "healthFactor": 1.197428,
+    "debtUsd": 4708.19,
+    "collateralUsd": 7058.51
+  },
+  {
+    "address": "0x0f3d463a7c8a8c875fe5d683e4600ef39bee96e6",
+    "healthFactor": 1.197539,
+    "debtUsd": 4435.67,
+    "collateralUsd": 6810.12
   },
   {
     "address": "0x1d4a3b1f8b1ac31af130ca3b24bf05ab21d4cf15",
-    "healthFactor": 1.24843,
-    "debtUsd": 22157.21,
-    "collateralUsd": 35063.64
+    "healthFactor": 1.211855,
+    "debtUsd": 22162.65,
+    "collateralUsd": 34054
   },
   {
     "address": "0x1e13ec6c3bfc66bee20ae0f4ce0c2274e036366f",
-    "healthFactor": 1.249002,
-    "debtUsd": 4979.13,
-    "collateralUsd": 7843.76
+    "healthFactor": 1.213424,
+    "debtUsd": 4979.84,
+    "collateralUsd": 7623.89
+  },
+  {
+    "address": "0x09362813556b74c5383f84d2fb8dc78533afac28",
+    "healthFactor": 1.21351,
+    "debtUsd": 1878.68,
+    "collateralUsd": 2912.94
   },
   {
     "address": "0x0228bafbebf37beb4c52cfc6d8b6d6439d9160eb",
-    "healthFactor": 1.249479,
-    "debtUsd": 5043.61,
-    "collateralUsd": 8079.35
-  },
-  {
-    "address": "0x0b8756aae611f0e11cf1f4b23ca1b97c8cbfc6b2",
-    "healthFactor": 1.250182,
-    "debtUsd": 16607.28,
-    "collateralUsd": 26618.1
-  },
-  {
-    "address": "0x129bff1abab8dff1bd2879db67ce04c79756dc6f",
-    "healthFactor": 1.250503,
-    "debtUsd": 14173.28,
-    "collateralUsd": 22722.72
-  },
-  {
-    "address": "0x1683eeed8163004a3e986fdb36efb43b96416341",
-    "healthFactor": 1.250896,
-    "debtUsd": 3539.38,
-    "collateralUsd": 5557.96
-  },
-  {
-    "address": "0x0a04fbbd0322012437fa7b9847325094e78df059",
-    "healthFactor": 1.251915,
-    "debtUsd": 18191.69,
-    "collateralUsd": 29198
+    "healthFactor": 1.21581,
+    "debtUsd": 5045.36,
+    "collateralUsd": 7864.36
   },
   {
     "address": "0x081c198a7d24f0f01a8232bcb56bdbcb25bacf3a",
-    "healthFactor": 1.252162,
-    "debtUsd": 529.4,
-    "collateralUsd": 849.86
-  },
-  {
-    "address": "0x21f6a111bb778f30531d3a3291045c0e59a2f029",
-    "healthFactor": 1.256,
-    "debtUsd": 5051.64,
-    "collateralUsd": 8134.44
-  },
-  {
-    "address": "0x05d705c21b29ef3ae34135dad85576a529ff2c35",
-    "healthFactor": 1.256932,
-    "debtUsd": 543,
-    "collateralUsd": 875.02
-  },
-  {
-    "address": "0x174c5df5f401368e839ec9eef0edcd134c179334",
-    "healthFactor": 1.258478,
-    "debtUsd": 391.68,
-    "collateralUsd": 631.95
+    "healthFactor": 1.21827,
+    "debtUsd": 528.62,
+    "collateralUsd": 825.64
   },
   {
     "address": "0x056bd72a1c76295cce0d33991a756eb0ac00e93e",
-    "healthFactor": 1.259692,
-    "debtUsd": 2849.53,
-    "collateralUsd": 4601.97
+    "healthFactor": 1.223238,
+    "debtUsd": 2850.49,
+    "collateralUsd": 4470.3
+  },
+  {
+    "address": "0x0a7e2ea1701107d9fc60eedf8e93dd5994e3e6d4",
+    "healthFactor": 1.223593,
+    "debtUsd": 4015.04,
+    "collateralUsd": 6324.99
+  },
+  {
+    "address": "0x129bff1abab8dff1bd2879db67ce04c79756dc6f",
+    "healthFactor": 1.22361,
+    "debtUsd": 14177.78,
+    "collateralUsd": 22241.11
+  },
+  {
+    "address": "0x0a04fbbd0322012437fa7b9847325094e78df059",
+    "healthFactor": 1.22438,
+    "debtUsd": 18196.25,
+    "collateralUsd": 28562.98
+  },
+  {
+    "address": "0x0b8756aae611f0e11cf1f4b23ca1b97c8cbfc6b2",
+    "healthFactor": 1.225349,
+    "debtUsd": 16612.71,
+    "collateralUsd": 26097.91
+  },
+  {
+    "address": "0x1683eeed8163004a3e986fdb36efb43b96416341",
+    "healthFactor": 1.228999,
+    "debtUsd": 3540.43,
+    "collateralUsd": 5466.19
   },
   {
     "address": "0x021c1a739e39cc2f8417ffa7bee4cce54502c707",
-    "healthFactor": 1.263231,
-    "debtUsd": 7058.61,
-    "collateralUsd": 11431.61
-  },
-  {
-    "address": "0x10ecec253d4d31a80ee785d40668aaba4111f161",
-    "healthFactor": 1.266719,
-    "debtUsd": 747.7,
-    "collateralUsd": 1214.26
-  },
-  {
-    "address": "0x0a96888e36cdaa408b3359262fb953c279c7ed96",
-    "healthFactor": 1.267533,
-    "debtUsd": 1696.94,
-    "collateralUsd": 2722.68
-  },
-  {
-    "address": "0x2255e10289137d27c3d361586e3f17dcb3f17bb3",
-    "healthFactor": 1.268081,
-    "debtUsd": 879.98,
-    "collateralUsd": 1458.5
-  },
-  {
-    "address": "0x17bb1a6886f152c97ea89c183885e63639fa02bd",
-    "healthFactor": 1.276441,
-    "debtUsd": 9384.74,
-    "collateralUsd": 15357.78
-  },
-  {
-    "address": "0x1dc3b73e930467d5c7e1a5d0f0fe5150acfba8a4",
-    "healthFactor": 1.276911,
-    "debtUsd": 1137.73,
-    "collateralUsd": 1990.11
-  },
-  {
-    "address": "0x0d4cef3653a0fc6ff2d7704354eeb37fb8f8fc64",
-    "healthFactor": 1.279654,
-    "debtUsd": 481.56,
-    "collateralUsd": 790.03
-  },
-  {
-    "address": "0x1ae94909005800da22e0eaa0e8f780329b7201fe",
-    "healthFactor": 1.282143,
-    "debtUsd": 2416.06,
-    "collateralUsd": 3971.46
-  },
-  {
-    "address": "0x0b1924da33974a705f8ed2afcbf24b41278aed9e",
-    "healthFactor": 1.282473,
-    "debtUsd": 1701.72,
-    "collateralUsd": 2797.94
-  },
-  {
-    "address": "0x09ca193d695ca00108e1e91b9ae2147cf01accc4",
-    "healthFactor": 1.283338,
-    "debtUsd": 10044.6,
-    "collateralUsd": 16434.23
-  },
-  {
-    "address": "0x1c41c4a381ba59a7e61c5efad261f3f93d97258d",
-    "healthFactor": 1.285146,
-    "debtUsd": 6133.39,
-    "collateralUsd": 10105.52
-  },
-  {
-    "address": "0x1b91371decb937a0bb561b7b34bee607b887d14d",
-    "healthFactor": 1.287041,
-    "debtUsd": 6505.89,
-    "collateralUsd": 10598.03
-  },
-  {
-    "address": "0x02d35fdc0bccf2374e82b530136c332c86e6bee0",
-    "healthFactor": 1.287606,
-    "debtUsd": 6976.71,
-    "collateralUsd": 11447.18
-  },
-  {
-    "address": "0x09060f6d5df9b0a4561441335747f40bb9c4955d",
-    "healthFactor": 1.288028,
-    "debtUsd": 63229.51,
-    "collateralUsd": 101686.85
-  },
-  {
-    "address": "0x00b1f8089c03a2a9132d8ed1d15eda72812bbb85",
-    "healthFactor": 1.288506,
-    "debtUsd": 466.66,
-    "collateralUsd": 770.89
-  },
-  {
-    "address": "0x19b29ae23a772625de7c7d0c0e6ab8a2834a6f4d",
-    "healthFactor": 1.290838,
-    "debtUsd": 3075.44,
-    "collateralUsd": 4866.28
-  },
-  {
-    "address": "0x0ecab763109845564dab67c23fe9ada069010050",
-    "healthFactor": 1.291004,
-    "debtUsd": 1534.05,
-    "collateralUsd": 2539.05
-  },
-  {
-    "address": "0x17c90623be94db19df74ea0deb47092038ac36ff",
-    "healthFactor": 1.291481,
-    "debtUsd": 1498.4,
-    "collateralUsd": 2395.63
-  },
-  {
-    "address": "0x258f77da9acb9d8fcbbb23e564e929093bf3cd2f",
-    "healthFactor": 1.293358,
-    "debtUsd": 34650.21,
-    "collateralUsd": 57455.3
-  },
-  {
-    "address": "0x0e1ca7f4930c56fe0a8b62aed49042e2716ac75f",
-    "healthFactor": 1.296357,
-    "debtUsd": 208.62,
-    "collateralUsd": 346.73
+    "healthFactor": 1.229423,
+    "debtUsd": 7059.73,
+    "collateralUsd": 11127.43
   },
   {
     "address": "0x091fd5d959fa47e978b6ceb7aa0d4c024b8555ec",
-    "healthFactor": 1.299617,
-    "debtUsd": 7207.72,
-    "collateralUsd": 11285.87
+    "healthFactor": 1.230612,
+    "debtUsd": 7210.15,
+    "collateralUsd": 10690.24
+  },
+  {
+    "address": "0x17c90623be94db19df74ea0deb47092038ac36ff",
+    "healthFactor": 1.233237,
+    "debtUsd": 1498.74,
+    "collateralUsd": 2288.98
+  },
+  {
+    "address": "0x05d705c21b29ef3ae34135dad85576a529ff2c35",
+    "healthFactor": 1.23357,
+    "debtUsd": 537.45,
+    "collateralUsd": 849.98
+  },
+  {
+    "address": "0x0a96888e36cdaa408b3359262fb953c279c7ed96",
+    "healthFactor": 1.235559,
+    "debtUsd": 1650.85,
+    "collateralUsd": 2581.93
+  },
+  {
+    "address": "0x2106f16ff083c139c9ef08a62018aece567c3d54",
+    "healthFactor": 1.237171,
+    "debtUsd": 1359.52,
+    "collateralUsd": 2189.11
+  },
+  {
+    "address": "0x09060f6d5df9b0a4561441335747f40bb9c4955d",
+    "healthFactor": 1.237356,
+    "debtUsd": 63250.84,
+    "collateralUsd": 97756.9
+  },
+  {
+    "address": "0x19b29ae23a772625de7c7d0c0e6ab8a2834a6f4d",
+    "healthFactor": 1.24242,
+    "debtUsd": 3076.48,
+    "collateralUsd": 4688.43
+  },
+  {
+    "address": "0x09ca193d695ca00108e1e91b9ae2147cf01accc4",
+    "healthFactor": 1.243603,
+    "debtUsd": 10046.99,
+    "collateralUsd": 15931.22
+  },
+  {
+    "address": "0x0d4cef3653a0fc6ff2d7704354eeb37fb8f8fc64",
+    "healthFactor": 1.245029,
+    "debtUsd": 481.71,
+    "collateralUsd": 768.91
+  },
+  {
+    "address": "0x17bb1a6886f152c97ea89c183885e63639fa02bd",
+    "healthFactor": 1.245036,
+    "debtUsd": 9351.76,
+    "collateralUsd": 14927.29
+  },
+  {
+    "address": "0x0b1924da33974a705f8ed2afcbf24b41278aed9e",
+    "healthFactor": 1.247304,
+    "debtUsd": 1702.16,
+    "collateralUsd": 2721.92
+  },
+  {
+    "address": "0x1b91371decb937a0bb561b7b34bee607b887d14d",
+    "healthFactor": 1.247396,
+    "debtUsd": 6508.09,
+    "collateralUsd": 10277.69
+  },
+  {
+    "address": "0x02d35fdc0bccf2374e82b530136c332c86e6bee0",
+    "healthFactor": 1.248763,
+    "debtUsd": 6977.82,
+    "collateralUsd": 11105.06
+  },
+  {
+    "address": "0x02ba2c2f13c82e62b2fa59deb33e59c2b1990e41",
+    "healthFactor": 1.249615,
+    "debtUsd": 10122.96,
+    "collateralUsd": 15240.72
+  },
+  {
+    "address": "0x1c41c4a381ba59a7e61c5efad261f3f93d97258d",
+    "healthFactor": 1.249706,
+    "debtUsd": 6134.36,
+    "collateralUsd": 9828.4
   },
   {
     "address": "0x2546c9e3c2e8ca2ad06602141e93f3c8cbfc2802",
-    "healthFactor": 1.299638,
-    "debtUsd": 12003.07,
-    "collateralUsd": 21369.37
+    "healthFactor": 1.254805,
+    "debtUsd": 12004.39,
+    "collateralUsd": 20634.48
+  },
+  {
+    "address": "0x0ecab763109845564dab67c23fe9ada069010050",
+    "healthFactor": 1.255593,
+    "debtUsd": 1534.5,
+    "collateralUsd": 2470.14
+  },
+  {
+    "address": "0x21f6a111bb778f30531d3a3291045c0e59a2f029",
+    "healthFactor": 1.255966,
+    "debtUsd": 4921.58,
+    "collateralUsd": 7924.79
+  },
+  {
+    "address": "0x0c6215a493689c3e330bb6ec717ad7e6699b7ce2",
+    "healthFactor": 1.256489,
+    "debtUsd": 929.7,
+    "collateralUsd": 1497.64
+  },
+  {
+    "address": "0x174c5df5f401368e839ec9eef0edcd134c179334",
+    "healthFactor": 1.258462,
+    "debtUsd": 380.71,
+    "collateralUsd": 614.24
+  },
+  {
+    "address": "0x258f77da9acb9d8fcbbb23e564e929093bf3cd2f",
+    "healthFactor": 1.258627,
+    "debtUsd": 34654.03,
+    "collateralUsd": 55918.58
+  },
+  {
+    "address": "0x088f5a2860f136f4c4e2fff9c82bb7682c05f4c2",
+    "healthFactor": 1.260391,
+    "debtUsd": 8392.07,
+    "collateralUsd": 13378.83
+  },
+  {
+    "address": "0x0e1ca7f4930c56fe0a8b62aed49042e2716ac75f",
+    "healthFactor": 1.262049,
+    "debtUsd": 208.48,
+    "collateralUsd": 337.32
+  },
+  {
+    "address": "0x168183b777aeaf6381e8b3573476bf58290b9c44",
+    "healthFactor": 1.263959,
+    "debtUsd": 513,
+    "collateralUsd": 831.29
+  },
+  {
+    "address": "0x0a12f453a0f0827785e24a412867b36b6fd3c535",
+    "healthFactor": 1.265031,
+    "debtUsd": 4176.75,
+    "collateralUsd": 6774
+  },
+  {
+    "address": "0x10ecec253d4d31a80ee785d40668aaba4111f161",
+    "healthFactor": 1.266642,
+    "debtUsd": 747.95,
+    "collateralUsd": 1214.6
+  },
+  {
+    "address": "0x25f23210c984f6c57218fb574da1f6716d87c349",
+    "healthFactor": 1.269554,
+    "debtUsd": 40504.39,
+    "collateralUsd": 62097.22
+  },
+  {
+    "address": "0x1dc3b73e930467d5c7e1a5d0f0fe5150acfba8a4",
+    "healthFactor": 1.270623,
+    "debtUsd": 1108.71,
+    "collateralUsd": 1929.79
+  },
+  {
+    "address": "0x02a817bac4fb0f98c360c7ad26fe82cc75efcdd6",
+    "healthFactor": 1.27119,
+    "debtUsd": 200.32,
+    "collateralUsd": 332.39
+  },
+  {
+    "address": "0x0bc35dd3e5114d88f163e6aa3978db28daf09dbf",
+    "healthFactor": 1.272744,
+    "debtUsd": 11587.34,
+    "collateralUsd": 18644.73
+  },
+  {
+    "address": "0x1ae94909005800da22e0eaa0e8f780329b7201fe",
+    "healthFactor": 1.281974,
+    "debtUsd": 2416.56,
+    "collateralUsd": 3971.75
+  },
+  {
+    "address": "0x00b1f8089c03a2a9132d8ed1d15eda72812bbb85",
+    "healthFactor": 1.284007,
+    "debtUsd": 466.81,
+    "collateralUsd": 768.44
+  },
+  {
+    "address": "0x0f5547107e6d7ec847efe2dd60c4146408fdc3cb",
+    "healthFactor": 1.286454,
+    "debtUsd": 2627.89,
+    "collateralUsd": 4329.76
+  },
+  {
+    "address": "0x1b2ff20d3f43ad977fd10bd365486022437e4924",
+    "healthFactor": 1.288245,
+    "debtUsd": 1984.68,
+    "collateralUsd": 3277.89
+  },
+  {
+    "address": "0x2255e10289137d27c3d361586e3f17dcb3f17bb3",
+    "healthFactor": 1.290497,
+    "debtUsd": 857.22,
+    "collateralUsd": 1445.28
+  },
+  {
+    "address": "0x156b1dc313dcbe1ab47ff39d28fb7edbca858e6b",
+    "healthFactor": 1.290506,
+    "debtUsd": 15739.83,
+    "collateralUsd": 24512.87
+  },
+  {
+    "address": "0x1a50cba49818246514c2357e7a209dabe839b3ce",
+    "healthFactor": 1.291077,
+    "debtUsd": 2472.7,
+    "collateralUsd": 4092.88
+  },
+  {
+    "address": "0x16d840ad69264e7d0dbf6ceebde0002a301edef2",
+    "healthFactor": 1.298012,
+    "debtUsd": 107863.72,
+    "collateralUsd": 174615.7
   }
 ]
